@@ -1,0 +1,17 @@
+.fsm{
+    font-size: 25px;
+    position: relative;
+    top: 100px;
+}
+#csb{
+    position: relative;
+    top: 100px;
+}
+#ch{
+    top: 12px;
+}
+#cfmbox{
+    top: 50%;
+    height: 300px;
+    width: 50%;
+}

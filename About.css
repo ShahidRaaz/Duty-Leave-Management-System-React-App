@@ -1,0 +1,12 @@
+#aapp{
+    margin-top: 50px;
+    font-size: 30px;
+    padding: 20px;
+}
+@media (max-width: 800px) {
+    #aapp{
+        margin-top: 25px;
+        font-size: 24px;
+    }
+  }
+  

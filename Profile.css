@@ -1,0 +1,55 @@
+
+#Ppage{
+    position: relative;
+    top: 70px;
+    padding: 15px;
+}
+.sub-heading{
+    font-size: 40px;
+    color: black;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .ppic{
+    height: 200px;
+    border-radius: 15px;
+  }
+  .flex-container2 {
+    display: flex;
+    font-size: 30px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  
+  .flex-item2 {
+      padding: 10px;
+      flex: 50%;
+      margin: 10px;
+      box-sizing: border-box;
+      font-size: 24px;
+      border-radius: 10px;
+      box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+      padding: 10px;
+      background-color: transparent; 
+  }
+  .dt
+  {
+    margin-top: 10px;
+    font-size: 24px;
+    color: aliceblue; 
+  }
+  .flex-item2:hover {
+    transform: translateY(-8px);
+    transition: 0.5s;
+  }
+  
+  @media (max-width: 800px) {
+    .flex-container2 {
+     flex-direction: column;
+    }
+  }
+  
+
+  
+  

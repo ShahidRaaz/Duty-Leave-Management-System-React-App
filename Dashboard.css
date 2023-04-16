@@ -1,0 +1,22 @@
+#dashboard{
+    width: auto;
+    height:auto;
+    position:relative;
+    top: 70px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+.b{
+    margin-bottom: 20px;
+    top: 25px;
+    right: 0px;
+    width: 200px;
+    height: 60px;
+}
+
+.link{
+    position: relative;
+    top: 17px;
+    text-decoration: none;
+    color: black;
+}

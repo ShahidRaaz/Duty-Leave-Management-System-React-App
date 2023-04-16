@@ -1,0 +1,67 @@
+#loginpage {
+    height: 570px;
+    width: 450px;
+  }
+#im1{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 55px;
+}
+.ibox{
+    position: relative;
+    top: 120px;
+    width: 280px;
+    height: 35px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    background: white;
+    border: white;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    color: #000000;
+    padding: 10px;
+}
+.ibox:hover{
+    cursor: text;
+}
+.L{
+    position: relative;
+    top: 100px;
+    float: left;
+    left: 40px;
+    color: #000000;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 22px; 
+}
+.lb{
+    position: relative;
+    width: 150px;
+    height: 50px;
+    top: 150px;
+    background: transparent;
+    border: transparent;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #000000;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+}
+#ll{
+    font-size: 28px;
+}
+
+.lb:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+    

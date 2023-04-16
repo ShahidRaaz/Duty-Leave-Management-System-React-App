@@ -1,0 +1,21 @@
+#dlsbox{
+    top: 445px;
+    width: 500px;
+    height: 100%;
+}
+#sm{
+    background-color: rgb(0, 153, 255);
+    position: relative;
+    top: -10px;
+    right: 10px;
+    height: 75px;
+    width: 500px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow:0 0 .25em rgba(0,0,0,.25);
+    box-sizing:border-box;
+}
+.top{
+    margin-left: 15px;
+    top: 22px;
+}

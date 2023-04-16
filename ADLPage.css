@@ -1,0 +1,71 @@
+#formpage{
+    left:40%;
+    width: 80%;
+    height:660px ;
+    position:relative;
+    top: 410px;
+}
+.subheading{
+position: relative;
+top: 10px;
+}
+#form{
+    position:relative;
+    top: 20px;
+    right: 120px;
+}
+.flex-container {
+    display: flex;
+  }
+  
+.flex-item {
+      flex: 1;
+      font-size: 20px;
+      border-radius: 5px;
+      /* border: solid dodgerblue; */
+  }
+.label{
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+    right: 10px;
+    float: right;
+}
+.in{
+    position: relative;
+    top: 0px;
+    font-size: 18px;
+    float: left;
+    height: 40px;
+}
+
+#sb{
+    position: relative;
+    top: 10px;
+    left: 140px;
+}
+
+@media (max-width: 800px) {
+    .sub-heading{
+        left: 0px;
+        }
+        .flex-container {
+         flex-direction: column;
+        }
+        .label{
+            right: 0px;
+            top:0px;
+            float: none;
+        }
+        .in{
+            float: none;
+        }
+        #form{
+            left: 0px;
+            height: 580px;
+        }
+        #sb{
+            top: 10px;
+            left: 0px;
+        }
+}
